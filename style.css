@@ -50,9 +50,13 @@ body {
   transform: all 0.3s;
 }
 
-.app .quiz .btn:hover {
+.app .quiz .btn:hover:not([disabled]){
   background: #222;
   color: #fff;
+}
+
+.app .quiz .btn:disabled{
+    cursor: no-drop;
 }
 
 .app .quiz #next-btn {
@@ -66,4 +70,12 @@ body {
   border-radius: 4px;
   cursor: pointer;
   display: none;
+}
+
+.correct{
+    background-color: #9aeabc !important;
+}
+
+.incorrect{
+    background-color: #ff9393 !important;
 }
