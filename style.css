@@ -1,70 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #001e4d;
+body {
+  background-color: #001e4d;
 }
 
-.app{
-    background-color: #fff;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    border-radius: 10px;
-    padding: 30px;
+.app {
+  background-color: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
 }
 
-.app h1{
-    font-size: 25px;
-    font-weight: 600;
-    color: #001e4d;
-    border-bottom: 1px solid #333;
-    padding-bottom: 30px;
+.app h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #001e4d;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
 }
 
-.app .quiz{
-    padding: 20px 0;
+.app .quiz {
+  padding: 20px 0;
 }
 
-.app .quiz h2{
-    font-size: 18px;
-    font-weight: 600;
-    color: #001e4d;
+.app .quiz h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #001e4d;
 }
 
-.app .quiz .btn{
-   background-color: #fff;
-   color: #222;
-   font-weight: 500;
-   width: 100%;
-   border: 1px solid #222;
-   padding: 10px;
-   margin: 10px 0;
-   text-align: left;
-   border-radius: 4px;
-   cursor: pointer;
-   transform: all 0.3s;
+.app .quiz .btn {
+  background-color: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: all 0.3s;
 }
 
-.app .quiz .btn:hover{
-    background: #222;
-    color: #fff;
+.app .quiz .btn:hover {
+  background: #222;
+  color: #fff;
 }
 
-.app .quiz #next-btn{
-    background-color: #001e4d;
-    color: #fff;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
+.app .quiz #next-btn {
+  background-color: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
 }
-
